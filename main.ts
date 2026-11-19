@@ -19,6 +19,9 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
+// Leonida Legend entry: the guide lives in app/ (state.js, filters.js, checklist.js, detail.js, roadmap.js,
+// missables.js) with all 55 official trophies and their cited guides in app/data/trophies.json. This program
+// hands that app and its screenshots in, exactly as the scorer expects.
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
