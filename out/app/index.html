@@ -3,27 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Leonida Legend: an offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI, with cited guides, a platinum roadmap, missable flags, filters and spoiler mode.">
 <title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff5c8a'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%23141b23'%3ELL%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skiplink" href="#listpane">Skip to the trophy list</a>
 <header id="topbar">
   <div class="brand">
     <h1>Leonida Legend</h1>
-    <p class="tagline">GTA VI trophy guide &amp; tracker — 55 official trophies, offline</p>
+    <p class="tagline">GTA VI trophy guide &amp; tracker — all 55 official trophies, fully offline</p>
   </div>
   <div class="progresswrap">
-    <div id="progressbar"><div id="progressfill"></div></div>
+    <div id="progressbar" role="progressbar" aria-labelledby="progress"><div id="progressfill"></div></div>
     <p id="progress">0 of 55 earned · 0%</p>
   </div>
   <div class="headerbuttons">
-    <button id="exportbtn" type="button">Export progress</button>
-    <label class="importbtn">Import progress <input id="importinput" type="file" accept="application/json"></label>
-    <button id="resetbtn" type="button">Reset</button>
+    <button id="exportbtn" type="button" title="Download your progress as JSON">Export progress</button>
+    <label class="importbtn">Import progress <input id="importinput" type="file" accept="application/json,.json"></label>
+    <button id="resetbtn" type="button" title="Clear every earned mark">Reset</button>
   </div>
 </header>
-<nav id="controls">
-  <input id="search" type="search" placeholder="Search trophies…">
+<nav id="controls" aria-label="Filters">
+  <input id="search" type="search" placeholder="Search names, descriptions, guides…" aria-label="Search trophies">
   <label>Kind
     <select id="kindfilter">
       <option value="all">All kinds</option>
@@ -44,23 +47,25 @@
   <label class="toggle"><input id="missablefilter" type="checkbox"> Missable only</label>
   <label class="toggle"><input id="hideearned" type="checkbox"> Hide earned</label>
   <label class="toggle spoiler"><input id="spoiler" type="checkbox"> Spoiler mode: hide story trophies until earned</label>
+  <p id="showncount" class="showncount" aria-live="polite"></p>
 </nav>
 <main id="layout">
   <section id="listpane">
-    <div id="tabs">
-      <button class="tab active" data-tab="checklist" type="button">Checklist</button>
-      <button class="tab" data-tab="roadmap" type="button">Platinum roadmap</button>
-      <button class="tab" data-tab="missables" type="button">Missables</button>
-      <button class="tab" data-tab="about" type="button">About</button>
+    <div id="tabs" role="tablist">
+      <button class="tab active" data-tab="checklist" type="button" role="tab">Checklist</button>
+      <button class="tab" data-tab="roadmap" type="button" role="tab">Platinum roadmap</button>
+      <button class="tab" data-tab="missables" type="button" role="tab">Missables</button>
+      <button class="tab" data-tab="about" type="button" role="tab">About</button>
     </div>
-    <div id="checklist" class="pane"></div>
-    <div id="roadmap" class="pane hidden"></div>
-    <div id="missables" class="pane hidden"></div>
-    <div id="about" class="pane hidden">
+    <div id="checklist" class="pane" role="tabpanel"></div>
+    <div id="roadmap" class="pane hidden" role="tabpanel"></div>
+    <div id="missables" class="pane hidden" role="tabpanel"></div>
+    <div id="about" class="pane hidden" role="tabpanel">
       <h2>About this guide</h2>
       <p>An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI, built from the official trophy list as PlayStation publishes it (names, descriptions and grades as listed by Exophase and PSNProfiles, which agree).</p>
-      <p>Every trophy's guide cites its sources beside it. The official names and descriptions are shown as PlayStation publishes them, including the asterisked name and every curly quote, dash and ellipsis. The guides are written in this entry's own words: they draw on the official descriptions and note where a condition is inferred from the description's wording.</p>
-      <p>Progress is saved in your browser (localStorage) and can be exported to a file and imported back. The app loads nothing from the network: every file it uses is its own.</p>
+      <p>Every trophy's guide cites its sources beside it, in the detail pane and as a structured <code>sources</code> list in <code>data/trophies.json</code> — named guides such as PowerPyx, PSNProfiles and Exophase. The official names and descriptions are shown as PlayStation publishes them, including the asterisked name and every curly quote, dash and ellipsis. The guides are written in this entry's own words: they draw on the official descriptions and named guides, and note where a condition is inferred from the description's wording.</p>
+      <p>Progress is saved in your browser (localStorage) and can be exported to a file and imported back; import merges with what you have and only accepts names this list holds. The app loads nothing from the network: every file it uses is its own, and links to sources open only when you follow them.</p>
+      <p class="kbdhint">Tip: press <kbd>/</kbd> to jump to search, <kbd>1</kbd>–<kbd>4</kbd> to switch tabs.</p>
     </div>
   </section>
   <aside id="detailpane">

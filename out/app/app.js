@@ -1,4 +1,6 @@
-// Entry point: loads the trophy data, wires filters, tabs, checklist, detail and roadmap together.
+// Entry point: loads the trophy data, wires filters, tabs, checklist, detail, roadmap and
+// missables together, keeps progress and the spoiler setting in localStorage, and drives
+// the header progress bar and the shown-trophy counter.
 import { loadEarned, saveEarned, loadSpoiler, saveSpoiler, exportProgress, importProgress } from './js/state.js';
 import { filters, bindFilters, visibleTrophies } from './js/filters.js';
 import { renderChecklist } from './js/checklist.js';
@@ -6,10 +8,8 @@ import { renderDetail } from './js/detail.js';
 import { renderRoadmap } from './js/roadmap.js';
 import { renderMissables } from './js/missables.js';
 
-const doc = await (await fetch('data/trophies.json')).json();
-let earned = loadEarned();
-let selected = null;
-let tab = 'checklist';
+const TAB_ORDER = ['checklist', 'roadmap', 'missables', 'about'];
+const TAB_KEY = 'gta6-last-tab';
 
 const panes = {
   checklist: document.getElementById('checklist'),
@@ -20,8 +20,24 @@ const panes = {
 const detail = document.getElementById('detail');
 const progressfill = document.getElementById('progressfill');
 const progress = document.getElementById('progress');
-
+const showncount = document.getElementById('showncount');
 const spoilerBox = document.getElementById('spoiler');
+
+let doc;
+try {
+  doc = await (await fetch('data/trophies.json')).json();
+  if (!Array.isArray(doc.trophies) || doc.trophies.length !== 55) {
+    throw new Error('expected 55 trophies, got ' + (doc.trophies?.length ?? 0));
+  }
+} catch (err) {
+  progress.textContent = 'Trophy data failed to load: ' + err.message;
+  throw err;
+}
+
+let earned = loadEarned();
+let selected = null;
+let tab = TAB_ORDER.includes(sessionStorage.getItem(TAB_KEY)) ? sessionStorage.getItem(TAB_KEY) : 'checklist';
+
 spoilerBox.checked = loadSpoiler();
 filters.spoiler = spoilerBox.checked;
 
@@ -42,8 +58,11 @@ function render() {
   const shown = visibleTrophies(doc.trophies, earned);
   if (tab === 'checklist') renderChecklist(panes.checklist, shown, earned, selected, select, toggle);
   else if (tab === 'roadmap') renderRoadmap(panes.roadmap, doc, earned, selected, select);
-  else if (tab === 'missables') renderMissables(panes.missables, shown, earned, selected, select);
-  renderDetail(detail, tab === 'checklist' ? currentTrophy() : currentTrophy(), earned);
+  else if (tab === 'missables') renderMissables(panes.missables, doc.trophies, earned, selected, select);
+  renderDetail(detail, currentTrophy(), earned);
+  showncount.textContent = tab === 'checklist'
+    ? 'Showing ' + shown.length + ' of ' + doc.trophies.length + ' trophies'
+    : '';
   updateProgress();
 }
 
@@ -51,6 +70,7 @@ function select(name) {
   selected = name;
   if (tab !== 'checklist') { tab = 'checklist'; setActiveTab(); }
   render();
+  document.getElementById('detailpane').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function toggle(name, on) {
@@ -62,11 +82,12 @@ function toggle(name, on) {
 function setActiveTab() {
   for (const b of document.querySelectorAll('.tab')) {
     b.classList.toggle('active', b.dataset.tab === tab);
+    b.setAttribute('aria-selected', String(b.dataset.tab === tab));
   }
 }
 
 for (const b of document.querySelectorAll('.tab')) {
-  b.addEventListener('click', () => { tab = b.dataset.tab; setActiveTab(); render(); });
+  b.addEventListener('click', () => { tab = b.dataset.tab; sessionStorage.setItem(TAB_KEY, tab); setActiveTab(); render(); });
 }
 
 bindFilters(render);
@@ -77,11 +98,13 @@ document.getElementById('importinput').addEventListener('change', async (e) => {
   const file = e.target.files[0];
   if (!file) return;
   try {
-    earned = await importProgress(file);
+    earned = await importProgress(file, earned, doc.trophies.map((t) => t.name));
     saveEarned(earned);
     render();
   } catch (err) {
     alert('Import failed: ' + err.message);
+  } finally {
+    e.target.value = '';
   }
 });
 document.getElementById('resetbtn').addEventListener('click', () => {
@@ -91,4 +114,18 @@ document.getElementById('resetbtn').addEventListener('click', () => {
   render();
 });
 
+// Keyboard shortcuts: "/" focuses search, 1-4 switch tabs.
+document.addEventListener('keydown', (e) => {
+  if (e.target.matches('input, select, textarea')) return;
+  if (e.key === '/') { e.preventDefault(); document.getElementById('search').focus(); }
+  const n = Number(e.key);
+  if (n >= 1 && n <= TAB_ORDER.length) {
+    tab = TAB_ORDER[n - 1];
+    sessionStorage.setItem(TAB_KEY, tab);
+    setActiveTab();
+    render();
+  }
+});
+
+setActiveTab();
 render();

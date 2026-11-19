@@ -1,5 +1,36 @@
-// The detail pane: official name/description/grade, the cited guide, steps, missable note.
+// The detail pane: official name/description/grade, the cited guide, steps, structured
+// sources (each trophy carries its own list in data/trophies.json) and the missable note.
 import { isSpoiled } from './filters.js';
+
+const FALLBACK_SOURCES = [
+  { name: 'Official trophy description (PlayStation), as listed by Exophase and PSNProfiles' },
+];
+
+function sourceLine(t) {
+  const src = document.createElement('div');
+  src.className = 'source';
+  const title = document.createElement('h3');
+  title.textContent = 'Sources';
+  const list = document.createElement('ul');
+  for (const s of t.sources ?? FALLBACK_SOURCES) {
+    const li = document.createElement('li');
+    if (s.url) {
+      const a = document.createElement('a');
+      a.href = s.url;
+      a.textContent = s.name;
+      a.rel = 'noopener';
+      li.append(a);
+    } else {
+      li.textContent = s.name;
+    }
+    list.append(li);
+  }
+  const note = document.createElement('p');
+  note.className = 'sourcenote';
+  note.textContent = 'Every fact above is this entry’s own wording — no guide’s text is copied; a link opens only when you follow it.';
+  src.append(title, list, note);
+  return src;
+}
 
 export function renderDetail(container, t, earned) {
   container.replaceChildren();
@@ -62,8 +93,5 @@ export function renderDetail(container, t, earned) {
     note.textContent = 'Missable — ' + t.missableNote;
     container.append(note);
   }
-  const src = document.createElement('p');
-  src.className = 'source';
-  src.textContent = 'Sources: the official description above (PlayStation, as listed by Exophase and PSNProfiles), plus this entry’s own reading of it. No other guide’s text is copied.';
-  container.append(src);
+  container.append(sourceLine(t));
 }
