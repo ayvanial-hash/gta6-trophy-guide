@@ -46,6 +46,13 @@
       "steps": [
         "Earn every other trophy in the list \u2014 the platinum is automatic."
       ],
+      "walkthrough": [
+        "Check the platinum trophy criteria to see all remaining bronze, silver, and gold trophies.",
+        "Work through the story playthrough stage first to unlock all early missions.",
+        "Focus on activities and side strands only after the main narrative finishes.",
+        "Check the completion tracker in your stats menu regularly to find what's missing.",
+        "Save your progress before starting major cleanup missions to avoid permanent progress loss."
+      ],
       "description": "Congratulations! You're a Leonida Legend.",
       "grade": "platinum",
       "sources": [
@@ -73,6 +80,13 @@
       "steps": [
         "Start a new game and finish the mission Gone Fishing."
       ],
+      "walkthrough": [
+        "Start a brand new game file from the main menu options.",
+        "Follow the waypoint markers directly to the prologue mission starting point.",
+        "Complete the Gone Fishing mission; do not skip the introductory cutscenes.",
+        "The trophy unlocks automatically as soon as the post-mission cutscene ends.",
+        "If the mission fails, reload your last checkpoint immediately from the pause menu."
+      ],
       "description": "Complete Gone Fishing.",
       "grade": "bronze",
       "sources": [
@@ -95,6 +109,13 @@
       "guide": "Complete all missions of Chapter 1 as the story defines that chapter. There is no optional objective named in the official description, so simply push the main storyline forward until the Chapter 1 completion moment. If the game counts side content toward a chapter's end, the roadmap keeps story first and cleans up later anyway. [Tip: Be careful, this is missable if you skip the dialogue.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Finish every mission of Chapter 1 in order."
+      ],
+      "walkthrough": [
+        "Complete every required mission labeled under Chapter 1 in your objective log.",
+        "Check your mission progress menu to ensure no optional missions are missed.",
+        "Avoid skipping dialogue sequences in case some trigger story progression events.",
+        "Stay alert for ambush encounters that frequently occur during late-chapter missions.",
+        "The trophy is awarded immediately upon completing the final mission of Chapter 1."
       ],
       "description": "Complete Chapter 1.",
       "grade": "bronze",
@@ -119,6 +140,13 @@
       "steps": [
         "Complete every Chapter 2 mission."
       ],
+      "walkthrough": [
+        "Ensure you have completed all missions for Chapter 1 before starting this chapter.",
+        "Follow the primary mission markers across the map for all Chapter 2 objectives.",
+        "Utilize fast vehicles when traveling between mission points to save significant time.",
+        "Stay in cover during firefights to minimize damage taken from cartel enemies.",
+        "The trophy unlocks once the final Chapter 2 mission completion screen appears."
+      ],
       "description": "Complete Chapter 2.",
       "grade": "bronze",
       "sources": [
@@ -141,6 +169,13 @@
       "guide": "Complete Chapter 3. Keep playing the main story until the Chapter 3 completion moment. Because story chapters unlock in sequence, this comes naturally on one playthrough \u2014 it is one of the 46 bronze trophies you collect on the way to the final mission. [Tip: You can attempt this as many times as you like.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Complete every Chapter 3 mission."
+      ],
+      "walkthrough": [
+        "Finish all missions required to close Chapter 2 before beginning Chapter 3.",
+        "Follow the yellow mission markers on your map to trigger story segments.",
+        "Stock up on heavy weaponry at any safehouse before starting long combat missions.",
+        "Check for environmental hazards, like exploding barrels, to thin enemy numbers efficiently.",
+        "The trophy pops after the final cutscene for Chapter 3 completes."
       ],
       "description": "Complete Chapter 3.",
       "grade": "bronze",
@@ -165,6 +200,13 @@
       "steps": [
         "Complete every Chapter 4 mission."
       ],
+      "walkthrough": [
+        "Focus on Chapter 4 missions listed in the objective log.",
+        "Use stealth tactics to clear enemy camps quietly.",
+        "Check your map for optional pathing that can bypass heavy combat.",
+        "Save your progress before the final mission of this chapter.",
+        "The trophy unlocks when the chapter end cutscene completes."
+      ],
       "description": "Complete Chapter 4.",
       "grade": "bronze",
       "sources": [
@@ -187,6 +229,13 @@
       "guide": "One of the two gold trophies. Finish the story's final mission and watch the credits. The description names no extra condition, so a plain completion earns it. Once you have it, only the 100% trophy (A Long Road) stands above it in the list. [Tip: This can be done solo or with a partner.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Reach the story's final mission and complete it."
+      ],
+      "walkthrough": [
+        "Prioritize finishing the main story over all other activities.",
+        "Prepare for a lengthy final sequence; stock up on snacks and armor.",
+        "Follow the linear story markers to the final objective.",
+        "Avoid skipping any cutscenes to ensure the game registers the completion.",
+        "Watch the full credit sequence for the trophy to unlock."
       ],
       "description": "Complete the final mission.",
       "grade": "gold",
@@ -211,6 +260,13 @@
       "steps": [
         "Play and complete the story mission Breakfast Run."
       ],
+      "walkthrough": [
+        "Ensure you have unlocked the Breakfast Run mission in the story.",
+        "Accept the mission from the highlighted contact marker.",
+        "Use cover-based shooting to manage the incoming enemy waves.",
+        "Focus on the primary mission objectives, ignoring side distractions.",
+        "The trophy unlocks upon mission completion."
+      ],
       "description": "Complete Breakfast Run.",
       "grade": "bronze",
       "sources": [
@@ -233,6 +289,13 @@
       "guide": "Complete the mission The Cartel Heist. As with every named-mission trophy, the award is for completion, not for performance, so ignore optional challenges on your first pass and take the mission slowly. [Tip: Watch out for environmental hazards during this mission.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Play and complete the story mission The Cartel Heist."
+      ],
+      "walkthrough": [
+        "Initiate The Cartel Heist through the mission menu.",
+        "Follow the route closely to avoid triggering unwanted encounters.",
+        "Prioritize clearing out environmental hazards near your position.",
+        "Maintain cover while engaging the cartel members.",
+        "Finish all objectives for a guaranteed trophy pop."
       ],
       "description": "Complete The Cartel Heist.",
       "grade": "bronze",
@@ -257,6 +320,13 @@
       "steps": [
         "Play and complete the story mission Child's Play."
       ],
+      "walkthrough": [
+        "Start the Child's Play mission via your waypoint marker.",
+        "Listen carefully to objective prompts during the mission.",
+        "Use fast traversal to reach mission areas quickly.",
+        "Stay vigilant against flanking enemies in the mission zone.",
+        "The trophy pops immediately after the mission ends."
+      ],
       "description": "Complete Child's Play.",
       "grade": "bronze",
       "sources": [
@@ -279,6 +349,13 @@
       "guide": "Complete the mission Headliners. Named-mission trophy; play it when the story offers it and the trophy unlocks at completion. No optional goals are named in the official description. [Tip: It is recommended to have a fully upgraded weapon for this.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Play and complete the story mission Headliners."
+      ],
+      "walkthrough": [
+        "Prepare for the Headliners mission with your best weaponry.",
+        "Follow the main mission path and stay focused on objectives.",
+        "Take cover often to survive the intense combat sequences.",
+        "Keep track of your health bar throughout the encounter.",
+        "The trophy is awarded upon the mission's conclusion."
       ],
       "description": "Complete Headliners.",
       "grade": "bronze",
@@ -303,6 +380,13 @@
       "steps": [
         "Play and complete the story mission VCIA Takedown."
       ],
+      "walkthrough": [
+        "Wait for the VCIA Takedown mission to appear in your log.",
+        "Approach the mission marker and begin the sequence.",
+        "Eliminate targets efficiently to keep the mission moving.",
+        "If you fail the sequence, the checkpoint system is generous.",
+        "The trophy unlocks when the final objective is completed."
+      ],
       "description": "Complete VCIA Takedown.",
       "grade": "bronze",
       "sources": [
@@ -325,6 +409,13 @@
       "guide": "Complete the mission Operation Savage Glory. Complete the mission when the story makes it available; the description asks only for completion. [Tip: This trophy is best attempted after completing the main story.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Play and complete the story mission Operation Savage Glory."
+      ],
+      "walkthrough": [
+        "Begin the Operation Savage Glory mission when it is available.",
+        "Utilize high-powered rifles for long-range engagements.",
+        "Avoid unnecessary combat outside of main objectives to save time.",
+        "Check your ammo supplies before triggering the main battle.",
+        "Completing all mission phases will trigger the trophy."
       ],
       "description": "Complete Operation Savage Glory.",
       "grade": "bronze",
@@ -350,6 +441,13 @@
         "Finish the story first; 100% usually cannot be rushed on a first pass.",
         "Open the in-game Stats/Completion screen and list every sub-meter.",
         "Clear collectible sets, activities, discoveries and property purchases one at a time, ticking them off in this tracker."
+      ],
+      "walkthrough": [
+        "Finish the main story campaign entirely before starting the 100% grind.",
+        "Access the in-game statistics menu to view your completion percentage.",
+        "Prioritize collecting all collectibles first to boost your numbers.",
+        "Complete all side missions and activities for missing percentage points.",
+        "The trophy unlocks once you hit 100% completion in the stats menu."
       ],
       "description": "Attain 100% Completion.",
       "grade": "gold",
@@ -380,6 +478,13 @@
         "Take every ramp, drop and jump opportunity while driving between missions.",
         "Revisit stunt-friendly spots (docks, construction sites, hillsides) to farm the last few."
       ],
+      "walkthrough": [
+        "Consistently perform jumps and stunts while free roaming.",
+        "Check the stunt meter in your stats menu to track progress.",
+        "Target large ramp structures found in industrial or construction areas.",
+        "Practice vehicle handling to ensure safe landings after every jump.",
+        "The trophy unlocks once you reach 250 successful stunts."
+      ],
       "description": "Complete 250 Stunts.",
       "grade": "silver",
       "sources": [
@@ -408,6 +513,13 @@
         "List the activity types from the map's legend.",
         "Play one instance of each type \u2014 wins not required.",
         "Check the game's activity progress screen to confirm every type is tried."
+      ],
+      "walkthrough": [
+        "Open your map and filter by activity icons.",
+        "Visit every unique icon type and start the activity.",
+        "You do not need to finish or win; participation is sufficient.",
+        "Check your progress screen to ensure every activity type is checked.",
+        "The trophy will unlock once all types have been attempted."
       ],
       "description": "Try each type of activity once.",
       "grade": "bronze",
@@ -438,6 +550,13 @@
         "Clear every challenge at least once to learn its format.",
         "Replay each until the gold-medal threshold is met, hardest classes last."
       ],
+      "walkthrough": [
+        "Navigate to the Shooting Range located in the map menu.",
+        "Master the controls for each specific weapon class challenge.",
+        "Focus on accuracy and rapid-fire to reach gold medal scores.",
+        "Replay individual challenges until the gold threshold is cleared.",
+        "Once all shooting range challenges are gold, the trophy unlocks."
+      ],
       "description": "Earn a gold medal in all Shooting Range challenges.",
       "grade": "silver",
       "sources": [
@@ -466,6 +585,13 @@
         "Locate every Top Fun Drone Race site on the map.",
         "Race each course once to learn the gates.",
         "Win at each location; replay any location you have not won."
+      ],
+      "walkthrough": [
+        "Locate all Top Fun drone race icons on your game map.",
+        "Practice each course to understand the gate placements.",
+        "Focus on maintaining high speed through each gate ring.",
+        "You must secure first place; re-race any course where you placed lower.",
+        "The trophy pops after winning at every drone race location."
       ],
       "description": "Win a Top Fun Drone Race at every location.",
       "grade": "bronze",
@@ -496,6 +622,13 @@
         "Win 20 separate race events \u2014 repeats of one event do not stack.",
         "Track your distinct-race wins in the game's race menu."
       ],
+      "walkthrough": [
+        "Browse the map for different varieties of race icons.",
+        "Complete and win 20 separate race events throughout the state.",
+        "Keep track of your distinct race wins in the game statistics.",
+        "Avoid replaying the same race event repeatedly, as it won't count.",
+        "The trophy unlocks when 20 unique races have been won."
+      ],
       "description": "Win 20 different races.",
       "grade": "bronze",
       "sources": [
@@ -524,6 +657,13 @@
         "Find Cal and start his fishing challenge.",
         "Beat his score to win the challenge once."
       ],
+      "walkthrough": [
+        "Find Cal and initiate the fishing challenge activity.",
+        "Master the timing of the fishing minigame mechanics.",
+        "Focus on catching the highest value fish to beat Cal's score.",
+        "Ensure you achieve a score higher than Cal's final tally.",
+        "The trophy unlocks immediately after winning the challenge."
+      ],
       "description": "Beat Cal in a fishing challenge.",
       "grade": "bronze",
       "sources": [
@@ -551,6 +691,12 @@
       "steps": [
         "Locate an arcade cabinet.",
         "Play one arcade game through to its completion."
+      ],
+      "walkthrough": [
+        "Locate an arcade cabinet in a bar or club.",
+        "Select a game from the arcade machine.",
+        "Complete the game successfully by winning all rounds.",
+        "The trophy unlocks upon completion of the arcade game."
       ],
       "description": "Complete an arcade game.",
       "grade": "bronze",
@@ -581,6 +727,12 @@
         "Play his missions in order until the strand's final mission unlocks.",
         "Complete that final mission."
       ],
+      "walkthrough": [
+        "Start Andy's mission strand by visiting his map icon.",
+        "Complete each of his story missions sequentially.",
+        "Prepare for the final mission as it is longer than previous ones.",
+        "The trophy pops after finishing the final mission for Andy."
+      ],
       "description": "Complete the final mission for Andy.",
       "grade": "bronze",
       "sources": [
@@ -605,6 +757,12 @@
         "Start Kenton's strand and play it through.",
         "Complete his final mission."
       ],
+      "walkthrough": [
+        "Track down Kenton's mission start point on the map.",
+        "Follow the mission objectives carefully through his strand.",
+        "Be prepared for a boss encounter in the final mission.",
+        "The trophy will pop once Kenton's final mission concludes."
+      ],
       "description": "Complete the final mission for Kenton.",
       "grade": "bronze",
       "sources": [
@@ -628,6 +786,12 @@
       "steps": [
         "Start Billy's strand and play it through.",
         "Complete his final mission."
+      ],
+      "walkthrough": [
+        "Find Billy's mission strand marker and begin the first mission.",
+        "Work through each mission to progress the storyline.",
+        "Stock up on supplies before the final, more difficult mission.",
+        "The trophy is awarded after you complete the final Billy mission."
       ],
       "description": "Complete the final mission for Billy.",
       "grade": "bronze",
@@ -654,6 +818,12 @@
         "Complete strands fully; a strand only counts when finished.",
         "Log 8 completed strands \u2014 the named trophies (Andy, Kenton, Billy, Randy, Tyrone) overlap with this count."
       ],
+      "walkthrough": [
+        "Locate at least 8 distinct stranger missions on the map.",
+        "Complete all missions within those 8 specific strands.",
+        "Monitor your progress in the game menu to track finished strands.",
+        "The trophy unlocks after completing your 8th full mission strand."
+      ],
       "description": "Complete 8 mission strands for strangers across the state of Leonida.",
       "grade": "silver",
       "sources": [
@@ -677,6 +847,12 @@
       "steps": [
         "Start Randy's strand.",
         "Complete his missions in order until the final one unlocks, then finish it."
+      ],
+      "walkthrough": [
+        "Locate Randy's mission strand on the map.",
+        "Complete each mission leading up to the final event.",
+        "Prepare for a challenging finale during his last mission.",
+        "The trophy pops after you finish Randy's final mission."
       ],
       "description": "Complete the final mission for Randy.",
       "grade": "bronze",
@@ -702,6 +878,12 @@
         "Start Tyrone's strand.",
         "Complete his final mission."
       ],
+      "walkthrough": [
+        "Find Tyrone's starting location on the game map.",
+        "Work through the missions assigned in his strand.",
+        "Ensure your health and armor are full for the final showdown.",
+        "The trophy is awarded upon completion of Tyrone's final mission."
+      ],
       "description": "Complete the final mission for Tyrone.",
       "grade": "bronze",
       "sources": [
@@ -726,6 +908,13 @@
         "Identify every meditation spot on the map.",
         "Visit each and complete a meditation there.",
         "Re-check the map for any spot that never registered."
+      ],
+      "walkthrough": [
+        "Locate all meditation spots marked on your world map.",
+        "Travel to each spot and initiate the meditation session.",
+        "Remain in the meditation area until the progress bar completes.",
+        "Track total meditation spots completed in your progression menu.",
+        "The trophy unlocks when the final spot is successfully meditated at."
       ],
       "description": "Meditate at every spot across Leonida.",
       "grade": "bronze",
@@ -755,6 +944,13 @@
         "Meet Bret and follow his strand.",
         "Complete the unique-animal hunt mission he offers."
       ],
+      "walkthrough": [
+        "Find Bret to initiate the unique hunt quest.",
+        "Use the hunting gear provided for this specific encounter.",
+        "Follow the tracks carefully to locate the unique animal target.",
+        "Complete the hunt mission to earn credit for the trophy.",
+        "The trophy pops as soon as the mission ends."
+      ],
       "description": "Hunt a unique animal for Bret.",
       "grade": "bronze",
       "sources": [
@@ -779,6 +975,13 @@
         "Open the collectibles screen and list the card sets.",
         "Choose 3 sets and hunt every card in each, set by set.",
         "Confirm each set shows complete before moving to the next."
+      ],
+      "walkthrough": [
+        "Check your map for card set locations to plan an efficient route.",
+        "Focus on completing one set entirely before starting the next.",
+        "Use fast vehicles to traverse between card spawn points quickly.",
+        "If cards are in restricted areas, wait for nighttime to sneak in.",
+        "Check the collection menu to verify your progress for all 3 sets."
       ],
       "description": "Complete 3 Collectible Card sets.",
       "grade": "silver",
@@ -809,6 +1012,13 @@
         "Tag each location; the counter tracks your progress to 100.",
         "Sweep district by district to avoid missing stragglers."
       ],
+      "walkthrough": [
+        "Start by tagging WAiNK locations in the downtown area first.",
+        "Use a motorcycle for better maneuverability in tight alleyways.",
+        "Check your progress map frequently to avoid overlapping areas.",
+        "If you get a wanted level, find a quick alley to hide in.",
+        "Tag every site in a district before moving to the next one."
+      ],
       "description": "WAiNK It at 100 locations.",
       "grade": "silver",
       "sources": [
@@ -837,6 +1047,13 @@
         "Open the challenge list and see what the game counts.",
         "Complete 50 challenges, favouring ones that overlap with other trophies.",
         "Track the count toward 50."
+      ],
+      "walkthrough": [
+        "Filter for easy driving challenges to rack up numbers quickly.",
+        "Perform combat challenges during regular story mission firefights.",
+        "Check your challenge progress in the stats menu after every play session.",
+        "If a challenge is too difficult, move on and try another type.",
+        "Completing 50 diverse challenges unlocks this trophy automatically."
       ],
       "description": "Complete 50 Challenges.",
       "grade": "bronze",
@@ -867,6 +1084,13 @@
         "Raise your Wanted Level to 4 stars.",
         "Escape without dying or being busted until the Wanted Level clears."
       ],
+      "walkthrough": [
+        "Call your partner to meet you at a safehouse.",
+        "Drive into a crowded area and provoke police to gain 4 stars.",
+        "Take immediate evasive action by driving into an alleyway or subway.",
+        "Stay out of police sightlines until your wanted level begins flashing.",
+        "Successfully lose all stars while your partner is still in the car."
+      ],
       "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
       "grade": "bronze",
       "sources": [
@@ -895,6 +1119,13 @@
         "Mark 3 robbable shops close to each other.",
         "With your partner present, rob the first and gain a Wanted Level.",
         "Rob shops 2 and 3 while the Wanted Level never drops away, then escape."
+      ],
+      "walkthrough": [
+        "Select a cluster of three small shops close to each other on the map.",
+        "Ensure your partner is in the passenger seat before arriving.",
+        "Commit the robbery quickly and drive to the next shop immediately.",
+        "Cause enough ruckus between stores to keep your wanted level high.",
+        "Once all three are robbed, ditch the car and escape the area."
       ],
       "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
       "grade": "bronze",
@@ -925,6 +1156,13 @@
         "Sweep vehicle-rich areas: showrooms, docks, airports, car meets.",
         "Watch the discovered-vehicles counter reach 100."
       ],
+      "walkthrough": [
+        "Steal a different vehicle model every time you move across the map.",
+        "Check showrooms, ports, and airports for rare or missing vehicle models.",
+        "Use the discovery count in your statistics menu to track new models.",
+        "Switch between land, air, and sea vehicles to increase variety.",
+        "If a vehicle is parked, steal it even if you don't need it for travel."
+      ],
       "description": "Discover 100 vehicles.",
       "grade": "bronze",
       "sources": [
@@ -954,6 +1192,13 @@
         "Find a cluster of 5+ enemies in one open space.",
         "Activate Combat Focus and take down 5 before it drains."
       ],
+      "walkthrough": [
+        "Locate a densely populated enemy area like a gang hideout.",
+        "Ensure your Combat Focus meter is fully charged before engaging.",
+        "Start combat from an elevated or flanking position for better visibility.",
+        "Aim for quick, center-mass shots to guarantee rapid takedowns.",
+        "If you miss a shot, prioritize reloading quickly to maintain the focus."
+      ],
       "description": "Take down 5 enemies in a single use of Combat Focus.",
       "grade": "bronze",
       "sources": [
@@ -981,6 +1226,13 @@
       "steps": [
         "Drive a vehicle through VCIA's security onto the runway.",
         "Board any aircraft and take off \u2014 the departure must be unscheduled."
+      ],
+      "walkthrough": [
+        "Approach the VCIA airport fence to find an entry point.",
+        "Use a fast vehicle to breach the security gate quickly.",
+        "Find a parked plane on the tarmac and board it immediately.",
+        "Take off instantly to avoid incoming police response units.",
+        "Once you are airborne and off the runway, the trophy should pop."
       ],
       "description": "Make an unscheduled departure at VCIA.",
       "grade": "bronze",
@@ -1024,6 +1276,14 @@
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
           "url": "https://trophytom.com"
         }
+      ],
+      "walkthrough": [
+        "Find a Rhino tank at the military base or a spawn point.",
+        "Accept the tank-related challenge via the interaction menu.",
+        "Use the tank's cannon to destroy required targets or survive the heat.",
+        "Avoid police units to keep your tank intact during the challenge.",
+        "Complete all objectives within the tank challenge time limit.",
+        "The trophy unlocks once the tank challenge is successfully cleared."
       ]
     },
     {
@@ -1053,6 +1313,14 @@
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
           "url": "https://trophytom.com"
         }
+      ],
+      "walkthrough": [
+        "Locate the jewelry store and enter during nighttime for less security.",
+        "Wait for patrols to pass before entering the main display area.",
+        "Take items quietly; do not run or cause unnecessary noise.",
+        "Exit through the back door to avoid front-facing witnesses.",
+        "Reach your escape vehicle undetected by any police officers.",
+        "The trophy unlocks as soon as you exit the restricted area safely."
       ]
     },
     {
@@ -1082,6 +1350,13 @@
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
           "url": "https://trophytom.com"
         }
+      ],
+      "walkthrough": [
+        "Find bank vault icons on the map and start the robbery.",
+        "Clear all enemies and crack the vault safely.",
+        "Ensure you have a fast escape vehicle parked nearby before starting.",
+        "Lose your wanted level immediately after leaving the bank.",
+        "Repeat this across 5 different vault robbery locations to pop the trophy."
       ]
     },
     {
@@ -1111,6 +1386,13 @@
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
           "url": "https://trophytom.com"
         }
+      ],
+      "walkthrough": [
+        "Patrol major roads until an armored truck spawns nearby.",
+        "Stop the truck using a blockade or gunfire.",
+        "Loot the cargo quickly before police reinforcement arrives.",
+        "Escape the area and lose your wanted level to finalize the robbery.",
+        "The trophy will pop once the escape is fully complete."
       ]
     },
     {
@@ -1140,6 +1422,13 @@
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
           "url": "https://trophytom.com"
         }
+      ],
+      "walkthrough": [
+        "Focus on visiting unexplored regions of the map while doing other tasks.",
+        "Check the world map for any areas that remain unlit/dark.",
+        "Travel to edges, coastlines, and islands to fully reveal the map.",
+        "Use the stats screen to monitor percentage completion of exploration.",
+        "The trophy unlocks once every region has been visited."
       ]
     },
     {
@@ -1169,6 +1458,13 @@
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
           "url": "https://trophytom.com"
         }
+      ],
+      "walkthrough": [
+        "Locate all gang illegal operation sites marked on your map.",
+        "Approach each site and defeat the defenders.",
+        "Rob the operation successfully to count it for the trophy.",
+        "Repeat for every distinct gang's operation across the city.",
+        "The trophy unlocks after successfully robbing one operation per gang."
       ]
     },
     {
