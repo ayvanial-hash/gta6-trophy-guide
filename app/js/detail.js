@@ -1,97 +1,133 @@
-// The detail pane: official name/description/grade, the cited guide, steps, structured
-// sources (each trophy carries its own list in data/trophies.json) and the missable note.
+/**
+ * View rendering logic for the trophy detail pane.
+ */
+
 import { isSpoiled } from './filters.js';
 
 const FALLBACK_SOURCES = [
   { name: 'Official trophy description (PlayStation), as listed by Exophase and PSNProfiles' },
 ];
 
-function sourceLine(t) {
-  const src = document.createElement('div');
-  src.className = 'source';
+/**
+ * Creates the sources section for the trophy detail.
+ * @param {Object} trophy - The trophy object.
+ * @returns {HTMLElement} The sources section element.
+ */
+function createSourcesSection(trophy) {
+  const section = document.createElement('div');
+  section.className = 'source';
+  
   const title = document.createElement('h3');
   title.textContent = 'Sources';
+  
   const list = document.createElement('ul');
-  for (const s of t.sources ?? FALLBACK_SOURCES) {
+  const sources = trophy.sources ?? FALLBACK_SOURCES;
+  
+  for (const source of sources) {
     const li = document.createElement('li');
-    if (s.url) {
-      const a = document.createElement('a');
-      a.href = s.url;
-      a.textContent = s.name;
-      a.rel = 'noopener';
-      li.append(a);
+    if (source.url) {
+      const link = document.createElement('a');
+      link.href = source.url;
+      link.textContent = source.name;
+      link.rel = 'noopener';
+      li.append(link);
     } else {
-      li.textContent = s.name;
+      li.textContent = source.name;
     }
     list.append(li);
   }
+  
   const note = document.createElement('p');
   note.className = 'sourcenote';
   note.textContent = 'Every fact above is this entry’s own wording — no guide’s text is copied; a link opens only when you follow it.';
-  src.append(title, list, note);
-  return src;
+  
+  section.append(title, list, note);
+  return section;
 }
 
-export function renderDetail(container, t, earned) {
+/**
+ * Renders the trophy detail pane in the provided container.
+ * @param {HTMLElement} container - The container element to render into.
+ * @param {Object|null} trophy - The trophy object to render, or null.
+ * @param {Set<string>} earnedSet - The set of earned trophy names.
+ */
+export function renderDetail(container, trophy, earnedSet) {
   container.replaceChildren();
-  if (!t) {
+  
+  if (!trophy) {
     const hint = document.createElement('p');
     hint.className = 'hint';
     hint.textContent = 'Select a trophy to read its guide.';
     container.append(hint);
     return;
   }
-  const spoiled = isSpoiled(t, earned);
-  const h = document.createElement('h2');
-  h.textContent = spoiled ? '??? (spoiler hidden — earn it first)' : t.name;
+  
+  const spoiled = isSpoiled(trophy, earnedSet);
+  
+  const header = document.createElement('h2');
+  header.textContent = spoiled ? '??? (spoiler hidden — earn it first)' : trophy.name;
+  
   const badges = document.createElement('div');
   badges.className = 'trow1';
-  const grade = document.createElement('span');
-  grade.className = 'badge ' + t.grade;
-  grade.textContent = t.grade + (t.count ? ' · ' + t.count : '');
-  badges.append(grade);
-  const kind = document.createElement('span');
-  kind.className = 'badge kind';
-  kind.textContent = t.kind;
-  badges.append(kind);
-  if (t.missable) {
-    const m = document.createElement('span');
-    m.className = 'badge missable';
-    m.textContent = 'missable';
-    badges.append(m);
+  
+  const gradeBadge = document.createElement('span');
+  gradeBadge.className = `badge ${trophy.grade}`;
+  gradeBadge.textContent = trophy.count ? `${trophy.grade} · ${trophy.count}` : trophy.grade;
+  badges.append(gradeBadge);
+  
+  const kindBadge = document.createElement('span');
+  kindBadge.className = 'badge kind';
+  kindBadge.textContent = trophy.kind;
+  badges.append(kindBadge);
+  
+  if (trophy.missable) {
+    const missableBadge = document.createElement('span');
+    missableBadge.className = 'badge missable';
+    missableBadge.textContent = 'missable';
+    badges.append(missableBadge);
   }
-  const stage = document.createElement('p');
-  stage.className = 'stageblurb';
-  stage.textContent = 'Roadmap stage ' + t.roadmapStage;
-  const official = document.createElement('blockquote');
-  official.className = 'official';
-  official.textContent = spoiled
+  
+  const roadmapStage = document.createElement('p');
+  roadmapStage.className = 'stageblurb';
+  roadmapStage.textContent = `Roadmap stage ${trophy.roadmapStage}`;
+  
+  const officialDescription = document.createElement('blockquote');
+  officialDescription.className = 'official';
+  officialDescription.textContent = spoiled
     ? 'Official description hidden by spoiler mode.'
-    : 'Official description: ' + t.description;
-  const body = document.createElement('div');
-  body.className = 'guidebody';
-  body.textContent = spoiled
+    : `Official description: ${trophy.description}`;
+    
+  const guideBody = document.createElement('div');
+  guideBody.className = 'guidebody';
+  guideBody.textContent = spoiled
     ? 'This is a story trophy and spoiler mode is on. Its guide stays hidden until you mark it earned.'
-    : t.guide;
-  container.append(h, badges, stage, official, body);
+    : trophy.guide;
+    
+  container.append(header, badges, roadmapStage, officialDescription, guideBody);
+  
   if (spoiled) return;
-  if (t.steps && t.steps.length) {
-    const sh = document.createElement('h3');
-    sh.textContent = 'How to do it';
-    const ol = document.createElement('ol');
-    ol.className = 'steps';
-    for (const s of t.steps) {
+  
+  if (trophy.steps && trophy.steps.length) {
+    const stepsHeader = document.createElement('h3');
+    stepsHeader.textContent = 'How to do it';
+    
+    const stepsList = document.createElement('ol');
+    stepsList.className = 'steps';
+    
+    for (const step of trophy.steps) {
       const li = document.createElement('li');
-      li.textContent = s;
-      ol.append(li);
+      li.textContent = step;
+      stepsList.append(li);
     }
-    container.append(sh, ol);
+    container.append(stepsHeader, stepsList);
   }
-  if (t.missable && t.missableNote) {
-    const note = document.createElement('div');
-    note.className = 'missnote';
-    note.textContent = 'Missable — ' + t.missableNote;
-    container.append(note);
+  
+  if (trophy.missable && trophy.missableNote) {
+    const missableNote = document.createElement('div');
+    missableNote.className = 'missnote';
+    missableNote.textContent = `Missable — ${trophy.missableNote}`;
+    container.append(missableNote);
   }
-  container.append(sourceLine(t));
+  
+  container.append(createSourcesSection(trophy));
 }

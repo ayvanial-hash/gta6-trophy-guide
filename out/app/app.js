@@ -1,8 +1,10 @@
-// Entry point: loads the trophy data, wires filters, tabs, checklist, detail, roadmap and
-// missables together, keeps progress and the spoiler setting in localStorage, and drives
-// the header progress bar and the shown-trophy counter.
+/**
+ * Main application entry point.
+ * Loads trophy data, initializes UI components, manages state, and handles user interactions.
+ */
+
 import { loadEarned, saveEarned, loadSpoiler, saveSpoiler, exportProgress, importProgress } from './js/state.js';
-import { filters, bindFilters, visibleTrophies } from './js/filters.js';
+import { filters, bindFilters, getVisibleTrophies } from './js/filters.js';
 import { renderChecklist } from './js/checklist.js';
 import { renderDetail } from './js/detail.js';
 import { renderRoadmap } from './js/roadmap.js';
@@ -17,111 +19,167 @@ const panes = {
   missables: document.getElementById('missables'),
   about: document.getElementById('about'),
 };
-const detail = document.getElementById('detail');
-const progressfill = document.getElementById('progressfill');
-const progress = document.getElementById('progress');
-const showncount = document.getElementById('showncount');
+const detailPane = document.getElementById('detail');
+const progressFill = document.getElementById('progressfill');
+const progressText = document.getElementById('progress');
+const shownCount = document.getElementById('showncount');
 const spoilerBox = document.getElementById('spoiler');
 
-let doc;
+let trophyData;
 try {
-  doc = await (await fetch('data/trophies.json')).json();
-  if (!Array.isArray(doc.trophies) || doc.trophies.length !== 55) {
-    throw new Error('expected 55 trophies, got ' + (doc.trophies?.length ?? 0));
+  const response = await fetch('data/trophies.json');
+  trophyData = await response.json();
+  if (!Array.isArray(trophyData.trophies) || trophyData.trophies.length !== 55) {
+    throw new Error(`Expected 55 trophies, got ${trophyData.trophies?.length ?? 0}`);
   }
 } catch (err) {
-  progress.textContent = 'Trophy data failed to load: ' + err.message;
+  progressText.textContent = `Trophy data failed to load: ${err.message}`;
   throw err;
 }
 
-let earned = loadEarned();
-let selected = null;
-let tab = TAB_ORDER.includes(sessionStorage.getItem(TAB_KEY)) ? sessionStorage.getItem(TAB_KEY) : 'checklist';
+let earnedSet = loadEarned();
+let selectedTrophyName = null;
+let currentTab = TAB_ORDER.includes(sessionStorage.getItem(TAB_KEY)) ? sessionStorage.getItem(TAB_KEY) : 'checklist';
 
 spoilerBox.checked = loadSpoiler();
 filters.spoiler = spoilerBox.checked;
 
+/**
+ * Updates the progress bar and text.
+ */
 function updateProgress() {
-  const pct = Math.round((earned.size / doc.trophies.length) * 100);
-  progressfill.style.width = pct + '%';
-  progress.textContent = earned.size + ' of ' + doc.trophies.length + ' earned · ' + pct + '%';
+  const percentage = Math.round((earnedSet.size / trophyData.trophies.length) * 100);
+  progressFill.style.width = `${percentage}%`;
+  progressText.textContent = `${earnedSet.size} of ${trophyData.trophies.length} earned · ${percentage}%`;
 }
 
-function currentTrophy() {
-  return doc.trophies.find((t) => t.name === selected) ?? null;
+/**
+ * Returns the currently selected trophy object.
+ * @returns {Object|null} The selected trophy object, or null.
+ */
+function getSelectedTrophy() {
+  return trophyData.trophies.find((t) => t.name === selectedTrophyName) ?? null;
 }
 
+/**
+ * Renders the active view.
+ */
 function render() {
-  for (const [name, pane] of Object.entries(panes)) {
-    pane.classList.toggle('hidden', name !== tab);
+  for (const [tabName, pane] of Object.entries(panes)) {
+    pane.classList.toggle('hidden', tabName !== currentTab);
   }
-  const shown = visibleTrophies(doc.trophies, earned);
-  if (tab === 'checklist') renderChecklist(panes.checklist, shown, earned, selected, select, toggle);
-  else if (tab === 'roadmap') renderRoadmap(panes.roadmap, doc, earned, selected, select);
-  else if (tab === 'missables') renderMissables(panes.missables, doc.trophies, earned, selected, select);
-  renderDetail(detail, currentTrophy(), earned);
-  showncount.textContent = tab === 'checklist'
-    ? 'Showing ' + shown.length + ' of ' + doc.trophies.length + ' trophies'
+  
+  const visibleTrophies = getVisibleTrophies(trophyData.trophies, earnedSet);
+  
+  if (currentTab === 'checklist') {
+    renderChecklist(panes.checklist, visibleTrophies, earnedSet, selectedTrophyName, selectTrophy, toggleTrophy);
+  } else if (currentTab === 'roadmap') {
+    renderRoadmap(panes.roadmap, trophyData, earnedSet, selectedTrophyName, selectTrophy);
+  } else if (currentTab === 'missables') {
+    renderMissables(panes.missables, trophyData.trophies, earnedSet, selectedTrophyName, selectTrophy);
+  }
+  
+  renderDetail(detailPane, getSelectedTrophy(), earnedSet);
+  
+  shownCount.textContent = currentTab === 'checklist'
+    ? `Showing ${visibleTrophies.length} of ${trophyData.trophies.length} trophies`
     : '';
+    
   updateProgress();
 }
 
-function select(name) {
-  selected = name;
-  if (tab !== 'checklist') { tab = 'checklist'; setActiveTab(); }
+/**
+ * Selects a trophy and switches to the checklist view.
+ * @param {string} trophyName - The name of the trophy to select.
+ */
+function selectTrophy(trophyName) {
+  selectedTrophyName = trophyName;
+  if (currentTab !== 'checklist') { 
+    currentTab = 'checklist'; 
+    setActiveTab(); 
+  }
   render();
   document.getElementById('detailpane').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
-function toggle(name, on) {
-  if (on) earned.add(name); else earned.delete(name);
-  saveEarned(earned);
+/**
+ * Toggles the earned status of a trophy.
+ * @param {string} trophyName - The name of the trophy.
+ * @param {boolean} isEarned - Whether the trophy is earned.
+ */
+function toggleTrophy(trophyName, isEarned) {
+  if (isEarned) {
+    earnedSet.add(trophyName);
+  } else {
+    earnedSet.delete(trophyName);
+  }
+  saveEarned(earnedSet);
   render();
 }
 
+/**
+ * Sets the active tab styling.
+ */
 function setActiveTab() {
-  for (const b of document.querySelectorAll('.tab')) {
-    b.classList.toggle('active', b.dataset.tab === tab);
-    b.setAttribute('aria-selected', String(b.dataset.tab === tab));
+  for (const tabButton of document.querySelectorAll('.tab')) {
+    const isSelected = tabButton.dataset.tab === currentTab;
+    tabButton.classList.toggle('active', isSelected);
+    tabButton.setAttribute('aria-selected', String(isSelected));
   }
 }
 
-for (const b of document.querySelectorAll('.tab')) {
-  b.addEventListener('click', () => { tab = b.dataset.tab; sessionStorage.setItem(TAB_KEY, tab); setActiveTab(); render(); });
+for (const tabButton of document.querySelectorAll('.tab')) {
+  tabButton.addEventListener('click', () => { 
+    currentTab = tabButton.dataset.tab; 
+    sessionStorage.setItem(TAB_KEY, currentTab); 
+    setActiveTab(); 
+    render(); 
+  });
 }
 
 bindFilters(render);
-spoilerBox.addEventListener('change', () => { filters.spoiler = spoilerBox.checked; saveSpoiler(spoilerBox.checked); render(); });
+spoilerBox.addEventListener('change', () => { 
+  filters.spoiler = spoilerBox.checked; 
+  saveSpoiler(spoilerBox.checked); 
+  render(); 
+});
 
-document.getElementById('exportbtn').addEventListener('click', () => exportProgress(earned));
-document.getElementById('importinput').addEventListener('change', async (e) => {
-  const file = e.target.files[0];
+document.getElementById('exportbtn').addEventListener('click', () => exportProgress(earnedSet));
+
+document.getElementById('importinput').addEventListener('change', async (event) => {
+  const file = event.target.files[0];
   if (!file) return;
   try {
-    earned = await importProgress(file, earned, doc.trophies.map((t) => t.name));
-    saveEarned(earned);
+    earnedSet = await importProgress(file, earnedSet, trophyData.trophies.map((t) => t.name));
+    saveEarned(earnedSet);
     render();
   } catch (err) {
-    alert('Import failed: ' + err.message);
+    alert(`Import failed: ${err.message}`);
   } finally {
-    e.target.value = '';
+    event.target.value = '';
   }
 });
+
 document.getElementById('resetbtn').addEventListener('click', () => {
   if (!confirm('Clear all earned marks?')) return;
-  earned = new Set();
-  saveEarned(earned);
+  earnedSet = new Set();
+  saveEarned(earnedSet);
   render();
 });
 
 // Keyboard shortcuts: "/" focuses search, 1-4 switch tabs.
-document.addEventListener('keydown', (e) => {
-  if (e.target.matches('input, select, textarea')) return;
-  if (e.key === '/') { e.preventDefault(); document.getElementById('search').focus(); }
-  const n = Number(e.key);
-  if (n >= 1 && n <= TAB_ORDER.length) {
-    tab = TAB_ORDER[n - 1];
-    sessionStorage.setItem(TAB_KEY, tab);
+document.addEventListener('keydown', (event) => {
+  if (event.target.matches('input, select, textarea')) return;
+  
+  if (event.key === '/') { 
+    event.preventDefault(); 
+    document.getElementById('search').focus(); 
+  }
+  
+  const tabIndex = Number(event.key);
+  if (tabIndex >= 1 && tabIndex <= TAB_ORDER.length) {
+    currentTab = TAB_ORDER[tabIndex - 1];
+    sessionStorage.setItem(TAB_KEY, currentTab);
     setActiveTab();
     render();
   }
