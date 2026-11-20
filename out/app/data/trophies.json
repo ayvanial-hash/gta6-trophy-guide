@@ -1206,12 +1206,12 @@
       "missable": true,
       "missableNote": "Missable on a first run if the description describes a single showroom smash-out \u2014 a scripted one-off stunt, destroyed property and all, that must be staged on purpose rather than accumulated.",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Smash out a showroom window and drive a car through the display. Find the car showroom, smash the front window, and drive a car through the wreckage. It is a one-off stunt for the trophy. [Tip: Use a heavy vehicle for better impact.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Smash your way out of a vehicle showroom in classic style. Enter a vehicle showroom, get into a display vehicle, and drive it straight through the glass front. The classic style wording points at the iconic smash-and-drive exit, so the through-the-window exit is the point. [Tip: Use the environment to funnel enemies into a kill zone.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Find a car showroom with a glass front.",
-        "Break the glass, smash through the window, and drive a car out."
+        "Find a vehicle showroom with glass frontage.",
+        "Enter a display car and drive it out through the windows."
       ],
-      "description": "Smash out a showroom window and drive a car through the display.",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
       "grade": "bronze",
       "sources": [
         {
@@ -1229,17 +1229,17 @@
     },
     {
       "id": 46,
-      "name": "Scooter Bros.",
+      "name": "Let\u2019s Go Bowling",
       "kind": "activities",
       "missable": false,
       "missableNote": "",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Register 10 Scooter Bros vehicles. Collectible-style economy/vehicle trophy: find 10 scooter bros scooters and register them at garages. [Tip: Check alleyways for hidden scooters.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Follow-through at the Kolt & Associates' bowling alley. Visit the bowling alley owned by Kolt & Associates and complete the bowling action the description calls follow-through \u2014 play the minigame through a throw (or a game) there. The curly apostrophe in the official name is as PlayStation publishes it. [Tip: Be aware of your surroundings, enemies can come from any direction.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Find 10 Scooter Bros vehicles across the map.",
-        "Register each one at a garage."
+        "Find the Kolt & Associates bowling alley.",
+        "Play the bowling minigame and complete the follow-through moment."
       ],
-      "description": "Register 10 Scooter Bros vehicles.",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
       "grade": "bronze",
       "sources": [
         {
@@ -1257,128 +1257,112 @@
     },
     {
       "id": 47,
-      "name": "Spending Spree",
-      "kind": "activities",
-      "missable": false,
-      "missableNote": "",
+      "name": "Personal Best",
+      "kind": "story",
+      "missable": true,
+      "missableNote": "Missable on a first run if the description (A partnership with mass appeal) is a riddle-shaped condition tied to the partner system reaching some peak \u2014 a state that depends on how the partnership develops, so it is tracked as a story-adjacent one-off to plan for.",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Spend $100,000 on shopping. Plain economy: $100k of shop spending counts. Clothing, weapons, services all add up. [Tip: Don't spend everything at once.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "A partnership with mass appeal. The official description is a phrase, not an instruction; from its wording it concerns your partner relationship reaching a notable peak (the personal best of the partnership). Build the partnership through the game's partner activities until the game itself awards the moment \u2014 the tracker marks it done when the trophy pops. [Tip: Some activities require specific times of day to be active.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Shop at any retailer.",
-        "Spend a total of $100,000 across the game's shops."
+        "Play the partner/co-op activities the game offers and max the relationship.",
+        "Watch for the moment the game awards the partnership's peak."
       ],
-      "description": "Spend $100,000 on shopping.",
+      "description": "A partnership with mass appeal.",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
-        },
-        {
-          "name": "TrophyTom \u2014 GTA VI platinum roadmap",
-          "url": "https://trophytom.com"
+          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+          "url": "https://www.powerpyx.com"
         }
       ]
     },
     {
       "id": 48,
-      "name": "Money Laundering",
-      "kind": "activities",
-      "missable": false,
-      "missableNote": "",
-      "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Launder $250,000. Economy trophy: $250k of illegal cash run through laundering mechanics. [Tip: This can be done at several locations across the map.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "name": "Actions Speak Louder",
+      "kind": "story",
+      "missable": true,
+      "missableNote": "Missable on a first run if the description (Choices made, for better or worse) names the game's choice system: a trophy earned from choices implies some branches preclude others, so it is the clearest choice-dependent trophy on the list and cannot be collected in one pass by doing everything.",
+      "roadmapStage": "2. Stranger strands and side work",
+      "guide": "Choices made (for better or worse). The official description names the choice system outright: make story choices and live with them. Because choices are for better or worse, this trophy is tied to the decisions the game offers \u2014 make them deliberately, and if a second playthrough is needed for alternate branches, plan it here. [Tip: Read the mission briefing carefully for special conditions.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Find laundering services.",
-        "Launder a total of $250,000."
+        "Engage with every choice point the story offers.",
+        "Keep playing after each choice; the trophy tracks choices made."
       ],
-      "description": "Launder $250,000.",
+      "description": "Choices made (for better or worse).",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
-        },
-        {
-          "name": "TrophyTom \u2014 GTA VI platinum roadmap",
-          "url": "https://trophytom.com"
+          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+          "url": "https://www.powerpyx.com"
         }
       ]
     },
     {
       "id": 49,
-      "name": "Paparazzo",
-      "kind": "activities",
-      "missable": false,
-      "missableNote": "",
+      "name": "Bad Luck, I Guess",
+      "kind": "story",
+      "missable": true,
+      "missableNote": "Missable on a first run if the description (Second time's the charm) points at a repeat-failure event \u2014 something that happens on a second attempt, which depends on failing first, a situational trigger rather than a steady grind.",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Take 25 photos of landmarks. Landmark activity: find 25 distinct landmarks and photograph them. [Tip: Use the zoom function on your camera to get a better shot.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Second time's the charm. The description is a phrase about failing once and succeeding on a retry \u2014 from its wording, the trophy concerns an event that resolves on the second attempt. Let the game present the situation, fail the first attempt naturally if it is designed to, and complete the second. [Tip: Don't waste time on optional combat if you're aiming for a speed run.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Locate landmarks.",
-        "Take a photo of 25 distinct landmarks."
+        "Play the event the game attaches this to.",
+        "Complete it on the second attempt."
       ],
-      "description": "Take 25 photos of landmarks.",
+      "description": "Second time's the charm.",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
-        },
-        {
-          "name": "TrophyTom \u2014 GTA VI platinum roadmap",
-          "url": "https://trophytom.com"
+          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+          "url": "https://www.powerpyx.com"
         }
       ]
     },
     {
       "id": 50,
-      "name": "A Full House",
-      "kind": "activities",
-      "missable": false,
-      "missableNote": "",
-      "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Collect all 5 garage types. Economy/Collectibles: own one of each of the 5 garage types. [Tip: There are many garages to choose from.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "name": "The Truth Is Out There",
+      "kind": "story",
+      "missable": true,
+      "missableNote": "Missable on a first run if the description (What the hell just happened?) signals a specific surreal story moment, not an accumulation \u2014 a single late-game scene to reach rather than a grind.",
+      "roadmapStage": "1. Story playthrough",
+      "guide": "What the hell just happened? The description is a reaction quote; from the list's shape it marks a specific story moment \u2014 likely a late-game twist scene reached by playing the main storyline to its strange moment. Keep playing the story; the trophy arrives at that scene. [Tip: It's best to handle this when you have a high wanted level to clear.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Purchase or acquire one of each of the 5 garage types."
+        "Continue the main story until its twist/surreal moment plays."
       ],
-      "description": "Collect all 5 garage types.",
+      "description": "What the hell just happened?",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
-        },
-        {
-          "name": "TrophyTom \u2014 GTA VI platinum roadmap",
-          "url": "https://trophytom.com"
+          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+          "url": "https://www.powerpyx.com"
         }
       ]
     },
     {
       "id": 51,
-      "name": "Not A Scratch",
+      "name": "Ten Pin",
       "kind": "activities",
       "missable": true,
-      "missableNote": "Missable on a first run if the condition requires a long-distance drive without any damage \u2014 a high-precision driving stunt that fails on the slightest contact, so it is a deliberate, restart-prone challenge.",
+      "missableNote": "Missable on a first run if a melee drive-by bowling strike is a single staged stunt \u2014 timing, vehicle and target must line up, so it is a deliberate setup rather than a counter.",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Deliver a luxury car without a scratch. Deliver the car to its destination with zero body damage; drive carefully, use braking, avoid traffic, and take the safest route. If the car gets scratched, restart. [Tip: Practice driving on less busy roads first.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Bowl 'em over with a melee drive-by. A stunt trophy: while driving, use a melee swing to knock over pedestrians or objects arranged like pins \u2014 the description's bowling language says the melee drive-by must 'strike'. Stage it: drive past a cluster, swing a melee weapon out of the vehicle, and connect. [Tip: Follow the on-screen prompts for help with specific controls.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Accept a luxury car delivery mission.",
-        "Drive the car to the destination without any damage."
+        "Arm a melee weapon and enter a vehicle.",
+        "Drive past a clustered group and perform the melee drive-by hit."
       ],
-      "description": "Deliver a luxury car without a scratch.",
+      "description": "Bowl 'em over with a melee drive-by.",
       "grade": "bronze",
       "sources": [
         {
@@ -1396,25 +1380,26 @@
     },
     {
       "id": 52,
-      "name": "Clean Sweep",
-      "kind": "activities",
+      "name": "Dime on the Dollar",
+      "kind": "collectibles",
       "missable": false,
       "missableNote": "",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Clear all police roadblocks. Roadblock stunt: find roadblocks on the map and clear them. [Tip: Ensure you have sufficient ammunition.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Earn $250,000 laundering Marked Bills through your contacts. Marked Bills are dirty money that must be laundered through your contacts before it is clean; the trophy wants $250,000 earned through that laundering flow. Robberies (vaults, armoured trucks, shops) generate marked cash \u2014 keep laundering rather than skipping it, and the total accumulates across the game. [Tip: Upgrade your stamina for better performance in physical challenges.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI collectibles guides; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Locate all police roadblocks.",
-        "Clear each one."
+        "Earn dirty cash from robberies (marked bills).",
+        "Launder it through your contacts each time.",
+        "Track the laundered total to $250,000."
       ],
-      "description": "Clear all police roadblocks.",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
+          "name": "PowerPyx \u2014 GTA VI collectibles guides",
+          "url": "https://www.powerpyx.com"
         },
         {
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
@@ -1424,25 +1409,26 @@
     },
     {
       "id": 53,
-      "name": "Locked And Loaded",
-      "kind": "activities",
+      "name": "Treat Yo Self",
+      "kind": "collectibles",
       "missable": false,
       "missableNote": "",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Fully upgrade one weapon. Weapon economy: pay for every modification for one weapon class. [Tip: This is an expensive but rewarding investment.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Spend $100,000 across all shops. A spending trophy: purchases in shops count until you have spent $100,000 in total across the shops. Feed it naturally \u2014 weapons, clothes, food, vehicles parts \u2014 and top it up late with deliberate shopping sprees if the counter is short. [Tip: This is a great opportunity to explore the map's hidden areas.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI collectibles guides; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Choose a weapon.",
-        "Fully upgrade it at a gun store."
+        "Buy from every shop type during play.",
+        "Check the spending total periodically.",
+        "Top up with big purchases until $100,000 is spent."
       ],
-      "description": "Fully upgrade one weapon.",
+      "description": "Spend $100,000 across all shops.",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
+          "name": "PowerPyx \u2014 GTA VI collectibles guides",
+          "url": "https://www.powerpyx.com"
         },
         {
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
@@ -1452,25 +1438,26 @@
     },
     {
       "id": 54,
-      "name": "A Real Hero",
-      "kind": "activities",
+      "name": "Little Boxes",
+      "kind": "collectibles",
       "missable": false,
       "missableNote": "",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Save 10 NPCs from crime. Flavour/Side activity: intervene in crime events and save the victims 10 times. [Tip: Check map icons for active crime events.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Purchase all garage properties. The real-estate trophy: buy every garage property the market offers. Garages cost money and some may unlock with story progress, so fund this from the laundering income (see Dime on the Dollar) and buy them as they become available. [Tip: Use your character's unique abilities to your advantage.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI collectibles guides; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Find active crime events where an NPC is in trouble.",
-        "Stop the criminal and save the NPC 10 times."
+        "Find every garage property for sale.",
+        "Buy each one; story progress may gate some.",
+        "Confirm the property list shows all garages owned."
       ],
-      "description": "Save 10 NPCs from crime.",
+      "description": "Purchase all garage properties.",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
+          "name": "PowerPyx \u2014 GTA VI collectibles guides",
+          "url": "https://www.powerpyx.com"
         },
         {
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
@@ -1480,25 +1467,26 @@
     },
     {
       "id": 55,
-      "name": "Clean Getaway",
-      "kind": "activities",
-      "missable": true,
-      "missableNote": "Missable on a first run if the condition involves a specific heist escape route \u2014 a stunt-heavy escape that only triggers when you take the precise path, so it is a deliberate, restart-prone one-off.",
+      "name": "On the Spot",
+      "kind": "collectibles",
+      "missable": false,
+      "missableNote": "",
       "roadmapStage": "5. Economy and one-off stunts",
-      "guide": "Complete a Heist with a clean getaway. Heist mission completion trophy: complete a heist mission without being chased, damaged, or spotted during the escape leg. This needs planning the escape route and executing it perfectly. [Tip: Make sure you plan your escape route carefully.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PSNProfiles forum \u2014 GTA VI boost thread; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
+      "guide": "Register 10 vehicles to the Scooter Bros app. Scooter Bros is the game's vehicle-registration app; register 10 different vehicles through it. Acquire vehicles (buy, steal, or use ones you already own), open the app, and register each \u2014 the counter climbs to 10. [Tip: Enjoy the scenery while you complete the mission.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI collectibles guides; TrophyTom \u2014 GTA VI platinum roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
-        "Play a heist mission.",
-        "Perform the heist and ensure the escape leg is flawless and undetected."
+        "Open the Scooter Bros app.",
+        "Register 10 vehicles you have access to.",
+        "Confirm the count reaches 10."
       ],
-      "description": "Complete a Heist with a clean getaway.",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
       "grade": "bronze",
       "sources": [
         {
           "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
         },
         {
-          "name": "PSNProfiles forum \u2014 GTA VI boost thread",
-          "url": "https://psnprofiles.com/forums"
+          "name": "PowerPyx \u2014 GTA VI collectibles guides",
+          "url": "https://www.powerpyx.com"
         },
         {
           "name": "TrophyTom \u2014 GTA VI platinum roadmap",
