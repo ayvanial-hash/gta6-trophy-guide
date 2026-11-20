@@ -1469,6 +1469,11 @@
         "Avoid police units to keep your tank intact during the challenge.",
         "Complete all objectives within the tank challenge time limit.",
         "The trophy unlocks once the tank challenge is successfully cleared."
+      ],
+      "pitfalls": [
+        "Find tank at military site.",
+        "Accept tank challenge menu.",
+        "Avoid police during challenge."
       ]
     },
     {
@@ -1506,6 +1511,11 @@
         "Exit through the back door to avoid front-facing witnesses.",
         "Reach your escape vehicle undetected by any police officers.",
         "The trophy unlocks as soon as you exit the restricted area safely."
+      ],
+      "pitfalls": [
+        "Study patrols before entering.",
+        "Stay undetected throughout robbery.",
+        "Plan clean escape route."
       ]
     },
     {
@@ -1542,6 +1552,11 @@
         "Ensure you have a fast escape vehicle parked nearby before starting.",
         "Lose your wanted level immediately after leaving the bank.",
         "Repeat this across 5 different vault robbery locations to pop the trophy."
+      ],
+      "pitfalls": [
+        "Find bank vault icons.",
+        "Ensure fast vehicle nearby.",
+        "Lose heat after robbery."
       ]
     },
     {
