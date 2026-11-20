@@ -113,3 +113,37 @@ A: Engaging in high-reward side activities like street races or stock market man
 Q: Do I need to complete every single side quest for 100% completion?
 A: Most, but not all. The 100% completion tracker will indicate which activities contribute to the total percentage.
 
+## Late Game & Cleanup
+
+Once the main storyline of Grand Theft Auto VI concludes, you enter the dedicated cleanup phase, a critical period where the world truly opens up. This is the optimal time to revisit districts you might have bypassed during your initial fast-paced playthrough. You should systematically focus on clearing out any residual side activities that were left pending, such as the numerous street crimes and minor NPC encounters, before tackling the remaining grindy trophies that require significant time investment.
+
+Effectively utilizing the in-game trophy tracker is essential to visualize your progress on cumulative tasks like eliminating a specific number of enemies or travelling across the sprawling map. It is vital to check this frequently, as failing to track these stats early can result in wasting hours on activities you have already functionally completed. Optimization is key during this stage to maximize your overall efficiency and reduce redundant gameplay loops, allowing you to focus on the final challenges ahead.
+
+Before engaging with the final, more demanding challenges, take a moment to meticulously cross-reference your current list against a reliable checklist of missable trophies. If you failed to pick up any of these during the campaign, you will likely need to start a fresh playthrough. Double-check your status on specific timed missions or collectibles associated with limited access areas, as these are the most common culprits for forcing a restart.
+
+Do not neglect the vast array of collectibles scattered throughout the Leonida region. While they may seem tedious at first glance, completing them often unlocks valuable fast travel options, unique character outfits, or special gameplay perks that make the rest of the cleanup much faster and more enjoyable. Grouping these by region can significantly reduce your total travel time and make the process feel less like a chore.
+
+Finally, always ensure your cloud save is synchronized and your progress is securely backed up before attempting any difficult or high-stakes trophies. Losing hours of tedious cleanup work due to a sudden sync error or a system crash is the fastest way to lose interest in securing the platinum trophy. Keep a manual save as a reliable safety net in case of unexpected bugs, glitches, or unintended mission failures during your final sweep.
+
+## Trophy Hunting Glossary
+
+*   **Plat:** The ultimate goal of every trophy hunter, the prestigious Platinum trophy awarded only upon completing all other trophies in a specific game.
+*   **Missable:** A trophy that can only be obtained within a very specific time frame or during a particular story quest, and is permanently lost if not achieved.
+*   **Free Roam:** The ability to freely explore the game’s open-world environment without being bound by active mission constraints, time limits, or narrative restrictions.
+*   **Checkpoint:** A designated, automatic save point within a mission, allowing you to retry from that exact spot immediately upon failure or death.
+*   **NG+ (New Game Plus):** A special game mode that allows you to restart the campaign with your previously earned gear, weapons, or character stats, often required for trophies related to harder difficulties.
+*   **Rarity:** A classification system used to indicate the relative difficulty of a trophy, based on the percentage of total players who have successfully earned it.
+*   **Backlog:** The extensive list of unplayed, unfinished, or partially completed games sitting in your personal digital or physical collection waiting for future attention.
+*   **Roadmap:** A comprehensive strategic guide or structured plan that outlines the most efficient, time-saving path to earning all trophies in a specific title.
+*   **Side Hustle:** Secondary, non-essential activities, mini-games, or challenges that are frequently required for reaching 100% completion but are not necessary for the main narrative.
+*   **Spoiler-free mode:** A deliberate design feature in guides, walkthroughs, or trophy trackers that hides sensitive plot details to preserve the full narrative experience for the player.
+*   **Completion percentage:** A clear numerical indicator of how much of the game’s total available content, including main missions, side quests, and trophies, you have finished.
+*   **100%:** The gold standard of total game completion, generally requiring all main missions, side activities, and all collectibles to be found and finished completely.
+
+## Troubleshooting
+
+*   **Trophy not popping:** If a trophy does not unlock when the specified conditions are met, first try completely restarting the game application or returning to the main menu and reloading your last stable save file.
+*   **Sync issues:** If your earned trophies are not correctly showing up on your profile, perform a manual sync to the network servers via your console's menu settings to force an update.
+*   **Progress reset:** If your progress on a cumulative trophy unexpectedly drops or resets, check if you accidentally loaded an older save file from a point before that progress was initially saved.
+*   **Co-op trophy tips:** For multiplayer or co-op related trophies, ensure all participating players are connected properly to the same session and meet the specific criteria before starting the challenge.
+*   **Restarting a clean save:** If all else fails and a trophy appears permanently glitched or bugged, you may need to start a brand new save file and strictly follow the path to the trophy again.
