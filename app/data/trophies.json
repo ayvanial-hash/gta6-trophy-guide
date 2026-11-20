@@ -1593,6 +1593,11 @@
         "Loot the cargo quickly before police reinforcement arrives.",
         "Escape the area and lose your wanted level to finalize the robbery.",
         "The trophy will pop once the escape is fully complete."
+      ],
+      "pitfalls": [
+        "Don't ignore reinforcement spawns.",
+        "Plan quick cargo extraction.",
+        "Escape immediately after looting."
       ]
     },
     {
@@ -1629,6 +1634,11 @@
         "Travel to edges, coastlines, and islands to fully reveal the map.",
         "Use the stats screen to monitor percentage completion of exploration.",
         "The trophy unlocks once every region has been visited."
+      ],
+      "pitfalls": [
+        "Don't ignore remote edges.",
+        "Check stats for progress.",
+        "Use fast traversal methods."
       ]
     },
     {
@@ -1665,6 +1675,11 @@
         "Rob the operation successfully to count it for the trophy.",
         "Repeat for every distinct gang's operation across the city.",
         "The trophy unlocks after successfully robbing one operation per gang."
+      ],
+      "pitfalls": [
+        "Don't ignore enemy defenders.",
+        "Track gang site progress.",
+        "Prepare for heavy resistance."
       ]
     },
     {
@@ -1684,6 +1699,11 @@
         "Locate a bar with an outdoor seating area.",
         "Approach the bar counter and select a cocktail from the menu.",
         "Watch the animation to complete the trophy requirement."
+      ],
+      "pitfalls": [
+        "Don't arrive after dark.",
+        "Find outdoor seating bar.",
+        "Watch full drink animation."
       ],
       "description": "Enjoy a cocktail with a view on Ocean Beach.",
       "grade": "bronze",
@@ -1719,6 +1739,11 @@
         "Accelerate directly through the glass storefront.",
         "The trophy unlocks once you have successfully smashed through."
       ],
+      "pitfalls": [
+        "Select showroom with windows.",
+        "Drive at full acceleration.",
+        "Ensure clear path outside."
+      ],
       "description": "Smash your way out of a vehicle showroom in classic style.",
       "grade": "bronze",
       "sources": [
@@ -1752,6 +1777,11 @@
         "Approach a lane and initiate the bowling minigame.",
         "Follow the on-screen prompts for a successful throw.",
         "The trophy will pop once the follow-through animation concludes."
+      ],
+      "pitfalls": [
+        "Find the correct alley.",
+        "Follow prompt instructions.",
+        "Wait for animation end."
       ],
       "description": "Follow-through at the Kolt & Associates' bowling alley.",
       "grade": "bronze",
@@ -1787,6 +1817,11 @@
         "Participate in activities that highlight your partner's specific skills.",
         "The trophy unlocks when you hit the partnership peak event."
       ],
+      "pitfalls": [
+        "Focus on co-op activities.",
+        "Monitor partner relationship.",
+        "Build specific partner skills."
+      ],
       "description": "A partnership with mass appeal.",
       "grade": "bronze",
       "sources": [
@@ -1816,6 +1851,11 @@
         "Save your progress before entering key story missions.",
         "Consider the long-term impact of each decision.",
         "If you want all outcomes, plan for a second playthrough."
+      ],
+      "pitfalls": [
+        "Think before deciding.",
+        "Save before major missions.",
+        "Consider all choice impacts."
       ],
       "description": "Choices made (for better or worse).",
       "grade": "bronze",
@@ -1847,6 +1887,11 @@
         "Follow the mission path carefully after the restart.",
         "The trophy is awarded on your successful second run."
       ],
+      "pitfalls": [
+        "Fail naturally first time.",
+        "Retry immediately after.",
+        "Follow path carefully."
+      ],
       "description": "Second time's the charm.",
       "grade": "bronze",
       "sources": [
@@ -1875,6 +1920,11 @@
         "Be prepared for unexpected story shifts in later chapters.",
         "Do not quit until the cutscene triggers automatically.",
         "Enjoy the narrative; the trophy pops upon scene completion."
+      ],
+      "pitfalls": [
+        "Progress main story only.",
+        "Anticipate story twists.",
+        "Watch full cutscene."
       ],
       "description": "What the hell just happened?",
       "grade": "bronze",
