@@ -1479,6 +1479,12 @@
         "Travel to Ocean Beach.",
         "Buy and enjoy a cocktail at a venue with a view."
       ],
+      "walkthrough": [
+        "Travel to the Ocean Beach district during daylight hours.",
+        "Locate a bar with an outdoor seating area.",
+        "Approach the bar counter and select a cocktail from the menu.",
+        "Watch the animation to complete the trophy requirement."
+      ],
       "description": "Enjoy a cocktail with a view on Ocean Beach.",
       "grade": "bronze",
       "sources": [
@@ -1506,6 +1512,12 @@
       "steps": [
         "Find a vehicle showroom with glass frontage.",
         "Enter a display car and drive it out through the windows."
+      ],
+      "walkthrough": [
+        "Locate a vehicle showroom with large glass windows.",
+        "Enter the building and steal a display vehicle.",
+        "Accelerate directly through the glass storefront.",
+        "The trophy unlocks once you have successfully smashed through."
       ],
       "description": "Smash your way out of a vehicle showroom in classic style.",
       "grade": "bronze",
@@ -1535,6 +1547,12 @@
         "Find the Kolt & Associates bowling alley.",
         "Play the bowling minigame and complete the follow-through moment."
       ],
+      "walkthrough": [
+        "Find the Kolt & Associates bowling alley on your map.",
+        "Approach a lane and initiate the bowling minigame.",
+        "Follow the on-screen prompts for a successful throw.",
+        "The trophy will pop once the follow-through animation concludes."
+      ],
       "description": "Follow-through at the Kolt & Associates' bowling alley.",
       "grade": "bronze",
       "sources": [
@@ -1563,6 +1581,12 @@
         "Play the partner/co-op activities the game offers and max the relationship.",
         "Watch for the moment the game awards the partnership's peak."
       ],
+      "walkthrough": [
+        "Prioritize playing partner-based missions and co-op side activities.",
+        "Maintain a high relationship level with your partner.",
+        "Participate in activities that highlight your partner's specific skills.",
+        "The trophy unlocks when you hit the partnership peak event."
+      ],
       "description": "A partnership with mass appeal.",
       "grade": "bronze",
       "sources": [
@@ -1586,6 +1610,12 @@
       "steps": [
         "Engage with every choice point the story offers.",
         "Keep playing after each choice; the trophy tracks choices made."
+      ],
+      "walkthrough": [
+        "Pay close attention to every dialogue prompt marked as a major choice.",
+        "Save your progress before entering key story missions.",
+        "Consider the long-term impact of each decision.",
+        "If you want all outcomes, plan for a second playthrough."
       ],
       "description": "Choices made (for better or worse).",
       "grade": "bronze",
@@ -1611,6 +1641,12 @@
         "Play the event the game attaches this to.",
         "Complete it on the second attempt."
       ],
+      "walkthrough": [
+        "Accept that failing the first time is part of the trophy.",
+        "Retrying immediately after failure is required for credit.",
+        "Follow the mission path carefully after the restart.",
+        "The trophy is awarded on your successful second run."
+      ],
       "description": "Second time's the charm.",
       "grade": "bronze",
       "sources": [
@@ -1633,6 +1669,12 @@
       "guide": "What the hell just happened? The description is a reaction quote; from the list's shape it marks a specific story moment \u2014 likely a late-game twist scene reached by playing the main storyline to its strange moment. Keep playing the story; the trophy arrives at that scene. [Tip: It's best to handle this when you have a high wanted level to clear.]\n\nSources: Official trophy description (PlayStation), as listed by Exophase and PSNProfiles; PowerPyx \u2014 GTA VI trophy guide roadmap. Every line above is this entry\u2019s own wording \u2014 no guide\u2019s text is copied.",
       "steps": [
         "Continue the main story until its twist/surreal moment plays."
+      ],
+      "walkthrough": [
+        "Keep pushing the main story campaign forward at all costs.",
+        "Be prepared for unexpected story shifts in later chapters.",
+        "Do not quit until the cutscene triggers automatically.",
+        "Enjoy the narrative; the trophy pops upon scene completion."
       ],
       "description": "What the hell just happened?",
       "grade": "bronze",
@@ -1657,6 +1699,13 @@
       "steps": [
         "Arm a melee weapon and enter a vehicle.",
         "Drive past a clustered group and perform the melee drive-by hit."
+      ],
+      "walkthrough": [
+        "Choose a high-density location for the strike attempt.",
+        "Equip your fastest melee weapon.",
+        "Drive steadily past the target crowd.",
+        "Time your swing precisely as you pass the pedestrians.",
+        "Multiple takedowns in one swing count towards the strike."
       ],
       "description": "Bowl 'em over with a melee drive-by.",
       "grade": "bronze",
@@ -1687,6 +1736,12 @@
         "Launder it through your contacts each time.",
         "Track the laundered total to $250,000."
       ],
+      "walkthrough": [
+        "Commit robberies to accumulate marked bills.",
+        "Visit your contacts regularly to launder the dirty cash.",
+        "Repeat this process consistently until the total hits $250,000.",
+        "Check your current laundered amount in the statistics menu."
+      ],
       "description": "Earn $250,000 laundering Marked Bills through your contacts.",
       "grade": "bronze",
       "sources": [
@@ -1715,6 +1770,12 @@
         "Buy from every shop type during play.",
         "Check the spending total periodically.",
         "Top up with big purchases until $100,000 is spent."
+      ],
+      "walkthrough": [
+        "Make frequent purchases at all available shop types.",
+        "Keep track of your total spending in the game stats.",
+        "If close to the limit, buy expensive items like guns or clothing.",
+        "Ensure all shops contribute to the spending total."
       ],
       "description": "Spend $100,000 across all shops.",
       "grade": "bronze",
@@ -1745,6 +1806,12 @@
         "Buy each one; story progress may gate some.",
         "Confirm the property list shows all garages owned."
       ],
+      "walkthrough": [
+        "Explore the map to locate all garage property icons.",
+        "Complete necessary story missions to unlock restricted garages.",
+        "Use your laundered cash to fund these purchases.",
+        "Verify ownership of every garage property in the menu."
+      ],
       "description": "Purchase all garage properties.",
       "grade": "bronze",
       "sources": [
@@ -1773,6 +1840,12 @@
         "Open the Scooter Bros app.",
         "Register 10 vehicles you have access to.",
         "Confirm the count reaches 10."
+      ],
+      "walkthrough": [
+        "Open the Scooter Bros app on your in-game phone.",
+        "Acquire a variety of unique vehicles to register.",
+        "Register each vehicle through the app interface.",
+        "Track your progress until 10 vehicles are registered."
       ],
       "description": "Register 10 vehicles to the Scooter Bros app.",
       "grade": "bronze",
