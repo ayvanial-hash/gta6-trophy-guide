@@ -839,16 +839,21 @@
         "The trophy pops after finishing the final mission for Andy."
       ],
       "description": "Complete the final mission for Andy.",
-      "grade": "bronze",
-      "sources": [
-        {
-          "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
-        },
-        {
-          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
-          "url": "https://www.powerpyx.com"
-        }
-      ]
+            "grade": "bronze",
+            "sources": [
+                  {
+                    "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
+                  },
+                  {
+                    "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+                    "url": "https://www.powerpyx.com"
+                  }
+                ],
+                "pitfalls": [
+                  "Don't ignore the side missions.",
+                  "Complete strands in order.",
+                  "Take the final mission seriously."
+                ]
     },
     {
       "id": 23,
@@ -869,16 +874,21 @@
         "The trophy will pop once Kenton's final mission concludes."
       ],
       "description": "Complete the final mission for Kenton.",
-      "grade": "bronze",
-      "sources": [
-        {
-          "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
-        },
-        {
-          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
-          "url": "https://www.powerpyx.com"
-        }
-      ]
+            "grade": "bronze",
+            "sources": [
+                  {
+                    "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
+                  },
+                  {
+                    "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+                    "url": "https://www.powerpyx.com"
+                  }
+                ],
+                "pitfalls": [
+                  "Don't rush Kenton's strand.",
+                  "Follow all mission markers.",
+                  "Be prepared for boss encounters."
+                ]
     },
     {
       "id": 24,
@@ -899,16 +909,21 @@
         "The trophy is awarded after you complete the final Billy mission."
       ],
       "description": "Complete the final mission for Billy.",
-      "grade": "bronze",
-      "sources": [
-        {
-          "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
-        },
-        {
-          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
-          "url": "https://www.powerpyx.com"
-        }
-      ]
+            "grade": "bronze",
+            "sources": [
+                  {
+                    "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
+                  },
+                  {
+                    "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+                    "url": "https://www.powerpyx.com"
+                  }
+                ],
+                "pitfalls": [
+                  "Don't forget to stock up.",
+                  "Keep health armor high.",
+                  "Don't ignore the final mission."
+                ]
     },
     {
       "id": 25,
@@ -930,16 +945,21 @@
         "The trophy unlocks after completing your 8th full mission strand."
       ],
       "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-      "grade": "silver",
-      "sources": [
-        {
-          "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
-        },
-        {
-          "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
-          "url": "https://www.powerpyx.com"
-        }
-      ]
+            "grade": "silver",
+            "sources": [
+                  {
+                    "name": "Official trophy description (PlayStation), as listed by Exophase and PSNProfiles"
+                  },
+                  {
+                    "name": "PowerPyx \u2014 GTA VI trophy guide roadmap",
+                    "url": "https://www.powerpyx.com"
+                  }
+                ],
+                "pitfalls": [
+                  "Don't miss any stranger icons.",
+                  "Track strand progress carefully.",
+                  "Complete all missions fully."
+                ]
     },
     {
       "id": 26,
