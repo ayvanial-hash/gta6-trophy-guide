@@ -112,3 +112,5 @@ export function renderRoadmap(container, roadmapDoc, earnedSet, selectedTrophyNa
     }
   }
 }
+
+// Leonida Legend refresh pass: roadmap visualization module

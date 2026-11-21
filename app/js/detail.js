@@ -131,3 +131,5 @@ export function renderDetail(container, trophy, earnedSet) {
   
   container.append(createSourcesSection(trophy));
 }
+
+// Leonida Legend refresh pass: detail view module

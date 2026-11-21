@@ -96,3 +96,5 @@ export async function importProgress(file, currentSet = new Set(), validTrophyNa
   
   return mergedSet;
 }
+
+// Leonida Legend refresh pass: state management module

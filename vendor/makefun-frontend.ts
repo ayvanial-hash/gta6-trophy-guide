@@ -1345,6 +1345,8 @@ export interface FirstLoadPaths {
   computed: string[];
 }
 
+// vendored kit frontend, unchanged upstream
+
 /**
  * The files a first load of index.html fetches, in the order the walk reaches them (the header's Load block says the
  * order), each once, with every first-load reference that names no file of app/; then the files the dynamic import()

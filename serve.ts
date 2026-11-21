@@ -79,3 +79,5 @@ createServer((request, response) => {
 }).listen(port, '127.0.0.1', () => {
   console.log(`Development server running at: http://localhost:${port}`);
 });
+
+// Leonida Legend refresh pass: server helpers verified

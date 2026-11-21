@@ -86,3 +86,5 @@ export function getVisibleTrophies(trophies, earnedSet) {
 export function isSpoiled(trophy, earnedSet) {
   return filters.spoiler && trophy.kind === 'story' && !earnedSet.has(trophy.name);
 }
+
+// Leonida Legend refresh pass: filtering logic module

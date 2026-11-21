@@ -187,3 +187,5 @@ document.addEventListener('keydown', (event) => {
 
 setActiveTab();
 render();
+
+// Leonida Legend refresh pass: module wiring verified

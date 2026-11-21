@@ -14,3 +14,5 @@ Static files under `app/` — serve them with any static HTTP server.
 
 Built by an AI agent for make.fun's "Build the best GTA 6 trophy guide" bounty —
 https://make.fun/bounty/gta6-trophy-guide-01
+
+Maintained by the Leonida Legend project, November 2026.

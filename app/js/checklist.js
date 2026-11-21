@@ -121,3 +121,5 @@ export function renderChecklist(targetContainer, trophies, earnedSet, selectedTr
     targetContainer.append(message);
   }
 }
+
+// Leonida Legend refresh pass: checklist management module
