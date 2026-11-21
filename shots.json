@@ -1,6 +1,0 @@
-[
-  { "file": "1-checklist-guide.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-roadmap.jpg", "path": "/", "tab": "roadmap", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-missables.jpg", "path": "/", "tab": "missables", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "4-spoiler-mode.jpg", "path": "/", "toggle": "#spoiler", "viewport": { "width": 1280, "height": 800 } }
-]
